@@ -16,6 +16,9 @@
 [ERROR] Unknown/unsupported storage engine: InnoDB<br>
 [ERROR] Aborting<br>
 <br>
-solve<br>
+**solve**<br>
 put this line under [mysqld] section in my.cnf or server.cnf<br>
+```
 innodb_force_recovery=6
+```
+_remove or commented after its working_
